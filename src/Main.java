@@ -16,12 +16,18 @@ public class Main {
 	public static void main(String[] args) {
 		init();
 		
+		long time1, time2;
+		time1 = System.currentTimeMillis();
+		
 		switch(args[0]) {
 		case "hashmap":
 			readValues(hashMap);
 		case "treemap":
 			readValues(treeMap);
 		}
+		
+		time2 = System.currentTimeMillis();
+		System.out.println("Time for this operation: " + (time2 - time1));
 	}
 	
 	// Initialize data structures
