@@ -61,7 +61,7 @@ public class Main {
 		while (qwords.hasNext()) {
 			word = qwords.nextLine();
 			for (int i = 0; i < word.length(); i++) {
-				word.substring(i, i + 1)
+				word.substring(i, i + 1);
 			}
 		}
 		qwords.close();
