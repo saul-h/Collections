@@ -1,8 +1,19 @@
+/*
+ * Abel Acosta
+ * Saul Hernandez
+ * April 9, 2019
+ * Purpose: This program simulates a scavenger hunt.
+ * Our challenge is to find the best data structure to store the results of the hunt. 
+ * 
+ * Recommendation: It is better to use ArrayList
+ */
+
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.Random;
 import java.util.Scanner;
 
 public class Main3 {
@@ -53,6 +64,59 @@ public class Main3 {
 		} catch(NumberFormatException e){  
 			numOfTeams = 3;
 		}
+		
+		// Creating teams
+		Team[] teams = new Team[numOfTeams];
+		for(int i = 0; i < numOfTeams; i++) {
+			teams[i] = new Team(list);
+		}
+		
+		long t1 = System.currentTimeMillis();
+		// load items from list to each team
+		for(int i = 0; i < numOfTeams; i++) {
+			for(int j = 0; j < list.size(); j++) {
+				teams[i].load(list.get(j));
+			}
+		}
+		System.out.println("Time for loading items to all teams: " + (System.currentTimeMillis() - t1));
+		System.out.println();
+		
+		System.out.println(" what position in the list to be used for retrieving and inserting elements?");
+		int position = 0;
+		response = input.nextLine();
+		
+		try {  
+			position = Integer.parseInt(response); 
+		} catch(NumberFormatException e){  
+			position = 23;
+		}
+		
+		// Retrieving items from each team
+		t1 = System.currentTimeMillis();
+		for(int i = 0; i < numOfTeams; i++) {
+			System.out.println(teams[i].list.get(position));
+		}
+		System.out.println("Total time for retrieving: " + (System.currentTimeMillis() - t1));
+		
+		// Inserting item in each team
+		t1 = System.currentTimeMillis();
+		for(int i = 0; i < numOfTeams; i++) {
+			teams[i].list.add(position, "Tea from grandma");
+		}
+		System.out.println("Total time for insertion: " + (System.currentTimeMillis() - t1));
+		
+		// Retrieve item with random position
+		t1 = System.currentTimeMillis();
+		position = new Random().nextInt(100);
+		String item = list.get(position);
+		for(int i = 0; i < numOfTeams; i++) {
+			for(int j = 0; j < teams[i].list.size(); j++) {
+				if(teams[i].list.get(j).equals(item)) {
+					System.out.println("Found in position: " + j);
+				}
+			}
+		}
+		System.out.println("Time it took to find item with random gen: " + (System.currentTimeMillis() - t1));
 		
 		input.close();
 	}
