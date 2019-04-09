@@ -51,12 +51,13 @@ public class Main {
 	}
 	
 	public static void readValues(Map<String, Integer> map) {
-		Scanner qwords = null;
-		Scanner points = null;
+		Scanner qwordsFile = null;
+		Scanner pointsFile = null;
 		
+		// Open files
 		try {
-			qwords = new Scanner(new File("QWords.txt"));
-			points = new Scanner(new File("Points.txt"));
+			qwordsFile = new Scanner(new File("QWords.txt"));
+			pointsFile = new Scanner(new File("Points.txt"));
 		}catch(Exception e) {
 			e.printStackTrace();
 		}
@@ -67,9 +68,9 @@ public class Main {
 		
 		String letters;
 		time1 = System.currentTimeMillis();
-		while (points.hasNext()) {
-			value = Integer.parseInt(points.nextLine());
-			letters = points.nextLine();
+		while (pointsFile.hasNext()) {
+			value = Integer.parseInt(pointsFile.nextLine());
+			letters = pointsFile.nextLine();
 			
 			for (int i = 0; i < letters.length(); i++) {
 				map.put(letters.substring(i, i + 1), value);
@@ -79,14 +80,14 @@ public class Main {
 		time2 = System.currentTimeMillis();
 		System.out.println("Time to store point values: " + (time2 - time1));
 
-		while (qwords.hasNext()) {
-			word = qwords.nextLine();
+		while (qwordsFile.hasNext()) {
+			word = qwordsFile.nextLine();
 			for (int i = 0; i < word.length(); i++) {
 				word.substring(i, i + 1);
 			}
 		}
-		qwords.close();
-		points.close();
+		qwordsFile.close();
+		pointsFile.close();
 	}
 
 }
