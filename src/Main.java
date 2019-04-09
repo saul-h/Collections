@@ -5,6 +5,7 @@
 
 import java.util.Map;
 import java.util.Scanner;
+import java.io.File;
 import java.util.HashMap;
 import java.util.TreeMap;
 
@@ -15,6 +16,13 @@ public class Main {
 	public static long time1, time2;
 
 	public static void main(String[] args) {
+		
+		// Make sure user passes in data structure option.
+		if(args.length == 0) {
+			System.out.println("Specify \"treemap\" or \"hashmap\".");
+			return;
+		}
+		
 		init();
 		
 		long time1, time2;
@@ -23,8 +31,13 @@ public class Main {
 		switch(args[0]) {
 		case "hashmap":
 			readValues(hashMap);
+			break;
 		case "treemap":
 			readValues(treeMap);
+			break;
+		default:
+			System.out.println(args[0] + " not an option.");
+			break;
 		}
 		
 		time2 = System.currentTimeMillis();
@@ -38,34 +51,43 @@ public class Main {
 	}
 	
 	public static void readValues(Map<String, Integer> map) {
-		Scanner qwords = new Scanner("QWords.txt");
-		Scanner points = new Scanner("Points.txt");
-		Integer value = 0;
-		Integer pointTotals = 0;
+		Scanner qwordsFile = null;
+		Scanner pointsFile = null;
+		
+		// Open files
+		try {
+			qwordsFile = new Scanner(new File("QWords.txt"));
+			pointsFile = new Scanner(new File("Points.txt"));
+		}catch(Exception e) {
+			e.printStackTrace();
+		}
+		
+		
+		int value = 0;
 		String word;
 		
 		String letters;
 		time1 = System.currentTimeMillis();
-		while (points.hasNext()) {
-			if (points.hasNextInt())
-				value = points.nextInt();
-			letters = points.nextLine();
+		while (pointsFile.hasNext()) {
+			value = Integer.parseInt(pointsFile.nextLine());
+			letters = pointsFile.nextLine();
 			
 			for (int i = 0; i < letters.length(); i++) {
 				map.put(letters.substring(i, i + 1), value);
 			}
+			
 		}
 		time2 = System.currentTimeMillis();
 		System.out.println("Time to store point values: " + (time2 - time1));
 
-		while (qwords.hasNext()) {
-			word = qwords.nextLine();
+		while (qwordsFile.hasNext()) {
+			word = qwordsFile.nextLine();
 			for (int i = 0; i < word.length(); i++) {
-				word.substring(i, i + 1)
+				word.substring(i, i + 1);
 			}
 		}
-		qwords.close();
-		points.close();
+		qwordsFile.close();
+		pointsFile.close();
 	}
 
 }
