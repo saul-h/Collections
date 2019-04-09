@@ -1,0 +1,700 @@
+Time to traverse list: 1
+how many teams will play the game?
+345
+Time for loading items to all teams: 115
+
+ what position in the list to be used for retrieving and inserting elements?
+5
+soda can
+model car
+bookmark
+soda can
+twezzers
+vase
+blanket
+nail clippers
+video games
+hanger
+mop
+stockings
+seat belt
+bracelet
+box
+television
+toilet
+monitor
+playing card
+speakers
+television
+thermostat
+photo album
+playing card
+picture frame
+boom box
+pencil
+hair brush
+shampoo
+box
+buckel
+glasses
+seat belt
+sofa
+zipper
+mop
+bowl
+stockings
+tire swing
+vase
+toe ring
+bread
+pen
+toilet
+cookie jar
+soda can
+water bottle
+carrots
+speakers
+toe ring
+purse
+shovel
+carrots
+model car
+video games
+sharpie
+monitor
+playing card
+carrots
+twezzers
+deodorant
+pillow
+water bottle
+ring
+shirt
+camera
+air freshener
+playing card
+soda can
+lip gloss
+teddies
+tissue box
+bracelet
+toe ring
+plate
+USB drive
+shirt
+purse
+seat belt
+sidewalk
+knife
+remote
+puddle
+model car
+teddies
+monitor
+pen
+vase
+bow
+boom box
+slipper
+model car
+tissue box
+soy sauce packet
+vase
+chair
+tissue box
+bow
+carrots
+mop
+eye liner
+paint brush
+cell phone
+twister
+hair brush
+shawl
+sponge
+key chain
+slipper
+eraser
+bread
+candle
+speakers
+socks
+packing peanuts
+thermostat
+floor
+hair brush
+ring
+car
+shawl
+socks
+boom box
+lotion
+shirt
+bookmark
+twezzers
+washing machine
+apple
+twister
+shampoo
+glasses
+tire swing
+tissue box
+sharpie
+fork
+nail clippers
+fork
+face wash
+chair
+key chain
+ring
+glasses
+vase
+rusty nail
+playing card
+hair brush
+key chain
+sponge
+picture frame
+bread
+ring
+bow
+shirt
+key chain
+toothbrush
+floor
+scotch tape
+purse
+cell phone
+floor
+stockings
+tooth picks
+lip gloss
+packing peanuts
+stockings
+twister
+hair tie
+tooth picks
+box
+box
+mirror
+chair
+bracelet
+deodorant
+bow
+vase
+speakers
+seat belt
+scotch tape
+key chain
+bow
+soy sauce packet
+model car
+vase
+toe ring
+air freshener
+ipod
+boom box
+lip gloss
+apple
+lip gloss
+sofa
+bread
+sofa
+mop
+lotion
+seat belt
+clamp
+twezzers
+tooth picks
+chair
+mirror
+tissue box
+car
+keyboard
+house
+washing machine
+lotion
+photo album
+twister
+soda can
+toilet
+shampoo
+chair
+scotch tape
+knife
+scotch tape
+twezzers
+face wash
+shawl
+scotch tape
+candle
+television
+ring
+stockings
+bookmark
+mirror
+slipper
+packing peanuts
+door
+table
+tissue box
+soda can
+toilet
+ipod
+key chain
+piano
+monitor
+mop
+bracelet
+boom box
+sandal
+playing card
+door
+pillow
+sponge
+speakers
+remote
+house
+pencil
+candle
+tree
+monitor
+seat belt
+photo album
+hanger
+air freshener
+photo album
+vase
+washing machine
+bookmark
+twister
+seat belt
+shampoo
+lotion
+hair brush
+glass
+plate
+eye liner
+glasses
+twister
+nail clippers
+shovel
+key chain
+toe ring
+blanket
+socks
+camera
+sharpie
+chair
+button
+table
+shampoo
+apple
+tree
+shawl
+rusty nail
+deodorant
+camera
+hair brush
+lamp
+slipper
+pillow
+sidewalk
+hanger
+mirror
+table
+picture frame
+apple
+controller
+monitor
+soda can
+tire swing
+video games
+bracelet
+stockings
+controller
+vase
+knife
+model car
+cell phone
+playing card
+sofa
+video games
+car
+seat belt
+speakers
+bow
+teddies
+mirror
+picture frame
+hair tie
+rusty nail
+twezzers
+socks
+nail clippers
+tissue box
+twezzers
+hair tie
+floor
+tissue box
+fridge
+shirt
+glasses
+fridge
+keyboard
+ring
+ring
+bowl
+key chain
+boom box
+cell phone
+controller
+bread
+Total time for retrieving: 19
+Total time for insertion: 1
+Found in position: 47
+Found in position: 81
+Found in position: 55
+Found in position: 40
+Found in position: 4
+Found in position: 69
+Found in position: 84
+Found in position: 43
+Found in position: 68
+Found in position: 35
+Found in position: 91
+Found in position: 0
+Found in position: 89
+Found in position: 79
+Found in position: 30
+Found in position: 36
+Found in position: 86
+Found in position: 2
+Found in position: 67
+Found in position: 28
+Found in position: 50
+Found in position: 76
+Found in position: 100
+Found in position: 82
+Found in position: 8
+Found in position: 78
+Found in position: 31
+Found in position: 92
+Found in position: 56
+Found in position: 18
+Found in position: 16
+Found in position: 36
+Found in position: 35
+Found in position: 10
+Found in position: 75
+Found in position: 73
+Found in position: 41
+Found in position: 28
+Found in position: 89
+Found in position: 46
+Found in position: 66
+Found in position: 84
+Found in position: 85
+Found in position: 46
+Found in position: 65
+Found in position: 72
+Found in position: 85
+Found in position: 78
+Found in position: 16
+Found in position: 7
+Found in position: 13
+Found in position: 72
+Found in position: 59
+Found in position: 47
+Found in position: 65
+Found in position: 71
+Found in position: 49
+Found in position: 92
+Found in position: 34
+Found in position: 98
+Found in position: 58
+Found in position: 3
+Found in position: 86
+Found in position: 71
+Found in position: 65
+Found in position: 8
+Found in position: 29
+Found in position: 68
+Found in position: 93
+Found in position: 98
+Found in position: 47
+Found in position: 87
+Found in position: 63
+Found in position: 79
+Found in position: 34
+Found in position: 13
+Found in position: 3
+Found in position: 93
+Found in position: 42
+Found in position: 46
+Found in position: 78
+Found in position: 52
+Found in position: 93
+Found in position: 35
+Found in position: 97
+Found in position: 14
+Found in position: 80
+Found in position: 66
+Found in position: 33
+Found in position: 57
+Found in position: 34
+Found in position: 42
+Found in position: 38
+Found in position: 51
+Found in position: 24
+Found in position: 43
+Found in position: 80
+Found in position: 61
+Found in position: 60
+Found in position: 78
+Found in position: 89
+Found in position: 66
+Found in position: 10
+Found in position: 87
+Found in position: 53
+Found in position: 53
+Found in position: 77
+Found in position: 53
+Found in position: 36
+Found in position: 32
+Found in position: 83
+Found in position: 0
+Found in position: 88
+Found in position: 6
+Found in position: 17
+Found in position: 71
+Found in position: 3
+Found in position: 63
+Found in position: 66
+Found in position: 62
+Found in position: 89
+Found in position: 6
+Found in position: 24
+Found in position: 56
+Found in position: 98
+Found in position: 64
+Found in position: 74
+Found in position: 90
+Found in position: 100
+Found in position: 37
+Found in position: 50
+Found in position: 77
+Found in position: 100
+Found in position: 63
+Found in position: 55
+Found in position: 26
+Found in position: 4
+Found in position: 71
+Found in position: 48
+Found in position: 3
+Found in position: 20
+Found in position: 21
+Found in position: 73
+Found in position: 83
+Found in position: 75
+Found in position: 19
+Found in position: 57
+Found in position: 63
+Found in position: 85
+Found in position: 32
+Found in position: 47
+Found in position: 13
+Found in position: 29
+Found in position: 34
+Found in position: 48
+Found in position: 90
+Found in position: 59
+Found in position: 25
+Found in position: 56
+Found in position: 9
+Found in position: 14
+Found in position: 87
+Found in position: 89
+Found in position: 83
+Found in position: 42
+Found in position: 26
+Found in position: 71
+Found in position: 23
+Found in position: 77
+Found in position: 26
+Found in position: 46
+Found in position: 32
+Found in position: 79
+Found in position: 18
+Found in position: 25
+Found in position: 97
+Found in position: 83
+Found in position: 71
+Found in position: 85
+Found in position: 47
+Found in position: 90
+Found in position: 81
+Found in position: 15
+Found in position: 66
+Found in position: 89
+Found in position: 36
+Found in position: 87
+Found in position: 82
+Found in position: 10
+Found in position: 28
+Found in position: 39
+Found in position: 55
+Found in position: 80
+Found in position: 43
+Found in position: 56
+Found in position: 75
+Found in position: 50
+Found in position: 75
+Found in position: 11
+Found in position: 64
+Found in position: 72
+Found in position: 70
+Found in position: 3
+Found in position: 66
+Found in position: 53
+Found in position: 44
+Found in position: 54
+Found in position: 85
+Found in position: 80
+Found in position: 99
+Found in position: 46
+Found in position: 91
+Found in position: 44
+Found in position: 8
+Found in position: 84
+Found in position: 39
+Found in position: 83
+Found in position: 72
+Found in position: 25
+Found in position: 36
+Found in position: 50
+Found in position: 46
+Found in position: 64
+Found in position: 76
+Found in position: 73
+Found in position: 21
+Found in position: 78
+Found in position: 98
+Found in position: 67
+Found in position: 83
+Found in position: 76
+Found in position: 16
+Found in position: 63
+Found in position: 31
+Found in position: 48
+Found in position: 11
+Found in position: 29
+Found in position: 40
+Found in position: 55
+Found in position: 77
+Found in position: 67
+Found in position: 35
+Found in position: 90
+Found in position: 95
+Found in position: 77
+Found in position: 53
+Found in position: 68
+Found in position: 30
+Found in position: 87
+Found in position: 8
+Found in position: 67
+Found in position: 78
+Found in position: 21
+Found in position: 54
+Found in position: 28
+Found in position: 71
+Found in position: 92
+Found in position: 34
+Found in position: 76
+Found in position: 23
+Found in position: 0
+Found in position: 41
+Found in position: 65
+Found in position: 12
+Found in position: 14
+Found in position: 21
+Found in position: 20
+Found in position: 27
+Found in position: 83
+Found in position: 67
+Found in position: 39
+Found in position: 82
+Found in position: 88
+Found in position: 74
+Found in position: 2
+Found in position: 28
+Found in position: 11
+Found in position: 6
+Found in position: 25
+Found in position: 2
+Found in position: 62
+Found in position: 7
+Found in position: 88
+Found in position: 13
+Found in position: 99
+Found in position: 48
+Found in position: 45
+Found in position: 55
+Found in position: 26
+Found in position: 62
+Found in position: 42
+Found in position: 21
+Found in position: 46
+Found in position: 71
+Found in position: 31
+Found in position: 82
+Found in position: 96
+Found in position: 61
+Found in position: 27
+Found in position: 61
+Found in position: 83
+Found in position: 72
+Found in position: 93
+Found in position: 36
+Found in position: 89
+Found in position: 91
+Found in position: 66
+Found in position: 30
+Found in position: 9
+Found in position: 80
+Found in position: 49
+Found in position: 36
+Found in position: 14
+Found in position: 78
+Found in position: 63
+Found in position: 23
+Found in position: 16
+Found in position: 20
+Found in position: 25
+Found in position: 97
+Found in position: 62
+Found in position: 39
+Found in position: 87
+Found in position: 97
+Found in position: 42
+Found in position: 6
+Found in position: 21
+Found in position: 78
+Found in position: 76
+Found in position: 38
+Found in position: 92
+Found in position: 94
+Found in position: 13
+Found in position: 84
+Found in position: 46
+Found in position: 96
+Found in position: 95
+Found in position: 59
+Found in position: 27
+Found in position: 92
+Found in position: 82
+Found in position: 31
+Found in position: 95
+Found in position: 19
+Found in position: 69
+Time it took to find item with random gen: 27

@@ -1,0 +1,4 @@
+Time for words to add in map: 288 ms
+
+Searching for word: Alice
+Search operation took 81 ms
