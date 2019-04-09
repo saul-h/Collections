@@ -1,0 +1,39 @@
+hashmap run:
+
+Time to store point values: 8346365 nanoseconds
+Time to search for point values: 2624129 nanoseconds
+
+
+treemap run:
+
+Time to store point values: 7364823 nanoseconds
+Time to search for point values: 3026263 nanoseconds
+
+
+Points per qword:
+
+Key = qintar, Value = 15
+Key = qwerty, Value = 21
+Key = qaids, Value = 15
+Key = qintars, Value = 16
+Key = qabalas, Value = 18
+Key = qi, Value = 11
+Key = qis, Value = 12
+Key = qadis, Value = 15
+Key = qabala, Value = 17
+Key = qabalah, Value = 21
+Key = qanats, Value = 15
+Key = qindars, Value = 17
+Key = qaid, Value = 14
+Key = qadi, Value = 14
+Key = qindarka, Value = 22
+Key = qoph, Value = 18
+Key = qat, Value = 12
+Key = qabalahs, Value = 22
+Key = qwertys, Value = 22
+Key = qindar, Value = 16
+Key = qophs, Value = 19
+Key = qiviuts, Value = 19
+Key = qanat, Value = 14
+Key = qiviut, Value = 18
+Key = qats, Value = 13
