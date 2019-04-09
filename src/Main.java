@@ -5,6 +5,7 @@
 
 import java.util.Map;
 import java.util.Scanner;
+import java.io.File;
 import java.util.HashMap;
 import java.util.TreeMap;
 
@@ -38,22 +39,30 @@ public class Main {
 	}
 	
 	public static void readValues(Map<String, Integer> map) {
-		Scanner qwords = new Scanner("QWords.txt");
-		Scanner points = new Scanner("Points.txt");
-		Integer value = 0;
-		Integer pointTotals = 0;
+		Scanner qwords = null;
+		Scanner points = null;
+		
+		try {
+			qwords = new Scanner(new File("QWords.txt"));
+			points = new Scanner(new File("Points.txt"));
+		}catch(Exception e) {
+			e.printStackTrace();
+		}
+		
+		
+		int value = 0;
 		String word;
 		
 		String letters;
 		time1 = System.currentTimeMillis();
 		while (points.hasNext()) {
-			if (points.hasNextInt())
-				value = points.nextInt();
+			value = Integer.parseInt(points.nextLine());
 			letters = points.nextLine();
 			
 			for (int i = 0; i < letters.length(); i++) {
 				map.put(letters.substring(i, i + 1), value);
 			}
+			
 		}
 		time2 = System.currentTimeMillis();
 		System.out.println("Time to store point values: " + (time2 - time1));
