@@ -16,6 +16,13 @@ public class Main {
 	public static long time1, time2;
 
 	public static void main(String[] args) {
+		
+		// Make sure user passes in data structure option.
+		if(args.length == 0) {
+			System.out.println("Specify \"treemap\" or \"hashmap\".");
+			return;
+		}
+		
 		init();
 		
 		long time1, time2;
@@ -24,8 +31,13 @@ public class Main {
 		switch(args[0]) {
 		case "hashmap":
 			readValues(hashMap);
+			break;
 		case "treemap":
 			readValues(treeMap);
+			break;
+		default:
+			System.out.println(args[0] + " not an option.");
+			break;
 		}
 		
 		time2 = System.currentTimeMillis();
